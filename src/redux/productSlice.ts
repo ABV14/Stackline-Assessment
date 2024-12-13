@@ -17,7 +17,7 @@ export const selectCurrentProduct = (state: RootState): any => {
 };
 
 export const fetchProductDetails = createAsyncThunk('product/fetchProductDetails', async () => {
-  let response = await fetch('ttps://mock-servers-six.vercel.app/api/mock');
+  let response = await fetch('https://mock-servers-six.vercel.app/api/mock');
   if(response === null){
   response = await fetch("data/stackline_frontend_assessment_data.json")
   }
