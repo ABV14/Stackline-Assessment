@@ -3,7 +3,7 @@
 
 Stackline GitHub repository: [https://github.com/ABV14/Stackline-Assessment](https://github.com/ABV14/Stackline-Assessment)
 
-Live web page (hosted on GitHub Pages): [https://abv14.github.io/Stackline-Assessment/]
+Live web page (hosted on GitHub Pages): [https://abv14.github.io/Stackline-Assessment/](https://abv14.github.io/Stackline-Assessment/)
 
 By [Abhivarma Birru](mailto:abhivarma.birru@gmail.com)
 
