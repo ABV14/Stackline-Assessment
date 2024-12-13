@@ -7,7 +7,7 @@ export default function Product(props) {
 
     return (
         <>
-        {product && product.length !== 0 ?
+        {product && product?.length !== 0 ?
         <>
         <div className='product-information'>
         <ProductSummary productData = {product}/>
@@ -15,7 +15,7 @@ export default function Product(props) {
     </div>
     </>
     :
-        <h1>Hello</h1>
+        <h1 className='no-data-found'>Error finding Data, Please wait, and try again later</h1>
     }
     </>
     )
