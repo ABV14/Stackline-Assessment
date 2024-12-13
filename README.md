@@ -16,7 +16,7 @@ Follow these instructions to get a development environment up and running.
 Clone the repository
 
 ```
-git clone https://github.com/kyleyasumiishi/stackline.git
+git clone https://github.com/ABV14/Stackline-Assessment
 ```
 
 Install dependencies
