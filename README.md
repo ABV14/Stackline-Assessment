@@ -1,5 +1,5 @@
 
-# Stackline Assessment Challenge
+# Stackline - Product Sales Analytics
 
 Stackline GitHub repository: [https://github.com/ABV14/Stackline-Assessment](https://github.com/ABV14/Stackline-Assessment)
 
@@ -40,10 +40,8 @@ npm start
 - JavaScript
 - HTML
 - CSS
-- Jest
-- [Enzyme](https://github.com/airbnb/enzyme)
 - [Highcharts](https://www.highcharts.com/demo/)
 
 ## Thank You
 
-Thank you for taking the time to review my code and considering me for joining the team at Stackline! I had a lot of fun building this project, and I really look forward to hearing your feedback. -Kyle
+Thank you for taking the time to review my code. -Abhi
