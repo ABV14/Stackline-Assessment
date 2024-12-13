@@ -17,13 +17,16 @@ export const selectCurrentProduct = (state: RootState): any => {
 };
 
 export const fetchProductDetails = createAsyncThunk('product/fetchProductDetails', async () => {
-  let response = await fetch('https://mock-servers-six.vercel.app/api/mock');
-  if(response === null){
-  response = await fetch("data/stackline_frontend_assessment_data.json")
+  try {
+    let response = await fetch('https://mock-servers-six.vercel.app/api/mock');
+    if(response === null){
+    response = await fetch("data/stackline_frontend_assessment_data.json")
+    }
+    const data = await response.json();
+    return data;  
+  } catch (error) {
+    throw new Error('Failed to fetch product details');
   }
-  console.log(response,'response')
-  const data = await response.json();
-  return data;
 });
 
 export const productSlice = createSlice({
