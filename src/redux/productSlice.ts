@@ -16,8 +16,11 @@ export const selectCurrentProduct = (state: RootState): any => {
   return index > -1 ? products[index] : {};
 };
 
-export const fetchProductDetails = createAsyncThunk('product/fetchSharkNinja', async () => {
-  const response = await fetch('data/stackline_frontend_assessment_data.json');
+export const fetchProductDetails = createAsyncThunk('product/fetchProductDetails', async () => {
+  let response = await fetch('ttps://mock-servers-six.vercel.app/api/mock');
+  if(response === null){
+  response = await fetch("data/stackline_frontend_assessment_data.json")
+  }
   console.log(response,'response')
   const data = await response.json();
   return data;
